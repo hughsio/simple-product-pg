@@ -136,6 +136,21 @@ hr {
 	}
 }
 
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	margin-bottom: 2em;
+}
+form > label {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+	font-size: 1.2em;
+}
+
+
+
 .sr-only {
 	border: 0;
 	padding: 0;
