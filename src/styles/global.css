@@ -149,7 +149,18 @@ form > label {
 	font-size: 1.2em;
 }
 
+form > button {
+	padding: 0.5em 1em;
+	background: var(--accent);
+	color: rgb(12, 42, 139);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
 
+form > button:hover {
+	background: var(--accent-dark);
+}
 
 .sr-only {
 	border: 0;
